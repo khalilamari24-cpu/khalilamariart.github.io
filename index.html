@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the Art Game</h1>
+    <div class="controls">
+        <label for="colorPicker">Choose Color:</label>
+        <input type="color" id="colorPicker" value="#000000">
+
+        <label for="brushSize">Brush Size:</label>
+        <input type="range" id="brushSize" min="1" max="50" value="5">
+
+        <button id="clearCanvas">Clear Canvas</button>
+        <button id="saveDrawing">Save Drawing</button>
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
